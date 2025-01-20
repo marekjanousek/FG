@@ -59,7 +59,7 @@ def count_vowels(text):
             count += 1
     return count
 
-# User input
+ User input
 user_text = input("Enter a sentence: ")
 vowel_count = count_vowels(user_text)
 
