@@ -1,4 +1,5 @@
 # Program 1 (python)
+
 import random
 
 def number_guessing():
@@ -21,6 +22,7 @@ def number_guessing():
 number_guessing()
 
 # Program 2 (python)
+
 def calculator():
     print("Simple Calculator")
     number1 = float(input("Enter the first number: "))
@@ -45,14 +47,10 @@ def calculator():
 
 calculator()
 
+
 # Program 3 (python)
 
-Tady máš o něco složitější program – počítadlo samohlásek ve zadaném textu.
 
-Program: Počítání samohlásek
-python
-Copy
-Edit
 def count_vowels(text):
     vowels = "aeiouAEIOU"
     count = 0
