@@ -21,7 +21,7 @@ def number_guessing():
 
 number_guessing()
 
-#Kalkulačka
+# Kalkulačka
 
 def calculator():
     print("Simple Calculator")
