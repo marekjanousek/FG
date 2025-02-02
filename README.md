@@ -1,4 +1,4 @@
-# Program 1 (python)
+# Number Guessing
 
 import random
 
@@ -21,7 +21,7 @@ def number_guessing():
 
 number_guessing()
 
-# Program 2 (python)
+#Kalkulačka
 
 def calculator():
     print("Simple Calculator")
@@ -48,19 +48,19 @@ def calculator():
 calculator()
 
 
-# Program 3 (python)
+#Motivační citaty
 
+import random
 
-def count_vowels(text):
-    vowels = "aeiouAEIOU"
-    count = 0
-    for char in text:
-        if char in vowels:
-            count += 1
-    return count
+def nahodny_citat():
+citaty = [
+       "Nikdy se nevzdávej!",
+       "Každý den je nová příležitost.",
+       "Věř si dokážeš cokoliv.",
+       "Tvá budoucnost závisí na tom, co děláš dnes."
+]
+return random.choice(citaty)      
 
- User input
-user_text = input("Enter a sentence: ")
-vowel_count = count_vowels(user_text)
+print("Tvůj motivační citít na dnešek:")
+print(nahodny_citat())
 
-print(f"The number of vowels in your text is: {vowel_count}")
